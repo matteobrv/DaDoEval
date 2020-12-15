@@ -13,7 +13,7 @@ Both sub-tasks require to correctly assign document samples to one out of five h
 
 The solution is based on a linear multi-class Support Vector Machine classifier trained on a combination of character and word n-grams, as well as number of word tokens per document.
 
-A detailed description of the approach is outlined in my [system description paper](EVALITA_2020_DaDoEval_An_SVM-based_approach_for_Automatic_Document_Dating.pdf), while the code is available in the [DaDoEval_2020 notebook](DaDoEval_2020.ipynb).
+A detailed description of the approach is outlined in my [system description paper](http://ceur-ws.org/Vol-2765/paper96.pdf), while the code is available in the [DaDoEval_2020 notebook](DaDoEval_2020.ipynb).
 
 Despite its simplicity, the system ranked first in both sub-tasks, achieving a macro-average F1 score of 0.934 and 0.413, respectively.
 
