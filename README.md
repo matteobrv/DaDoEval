@@ -1,5 +1,4 @@
 ## DaDoEval at Evalita 2020 - An SVM-based approach for Automatic Document Dating
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/matteobrv/DaDoEval/blob/main/DaDoEval_2020.ipynb)
 
 Temporal information, such as the publication date of a document, is of major relevance in a number of domains. Building on this idea, the [**DaDoEval**](https://dhfbk.github.io/DaDoEval/) – Dating Document Evaluation – shared task, hosted at [Evalita 2020](http://www.evalita.it/2020), invites participants to tackle a series of automatic document dating sub-tasks, working with documents related to Italian statesman [Alcide De Gasperi](https://en.wikipedia.org/wiki/Alcide_De_Gasperi).
 
@@ -18,4 +17,11 @@ A detailed description of the approach is outlined in my [system description pap
 Despite its simplicity, the system ranked first in both sub-tasks, achieving a macro-average F1 score of 0.934 and 0.413, respectively.
 
 #### Requirements
-To properly read through the notebook on your machine, please make sure to use Python 3.6 or above and to install the required libraries with ```pip install -r requirements.txt```.
+
+```text
+python 3.6
+numpy 1.19.2
+matplotlib 3.3.2
+scikit-learn 0.23.2
+scikit-optimize 0.8.1
+```
